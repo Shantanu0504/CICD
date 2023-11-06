@@ -10,7 +10,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			   sh '/home/shantanu/Downloads/apache-tomcat-9.0.82/bin/mvn install'
+			   sh '/home/shantanu/Downloads/apache-maven-3.9.5-bin/apache-maven-3.9.5/mvn install'
 	                 }}
 		stage('Deployment'){
 		   steps {
